@@ -1,0 +1,44 @@
+body {
+  background-image: url("assets/bg-img1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.dark-theme {
+  background-color: #1c1c1c;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.bgImg {
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.8;
+  object-fit: cover;
+}
+
+.selectedImg {
+  border: 3px solid #263238;
+  opacity: 1;
+}
+
+.card-body {
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  color: white;
+  background-blend-mode: multiply;
+}
+
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
